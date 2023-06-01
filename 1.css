@@ -240,8 +240,8 @@ nav { display: none;}
     }
 
     .section__subtitle--about{
-        grid-row: -1/1;
-        grid-column: 2;
+        grid-column: 1 / -1 ;
+        grid-row: 2;
         position: relative;
         left: -1em;
         width: calc(100% + 2em);
